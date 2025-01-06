@@ -31,30 +31,30 @@ It supports the new (undocumented) raw TCP protocol for better accuracy.
 ### On Mac OS X
 
 ```
-$ brew install cmake
-$ cd cmake_build
-$ cmake -DCMAKE_BUILD_TYPE=Release ..
-$ make install
+brew install cmake
+cd cmake_build
+cmake -DCMAKE_BUILD_TYPE=Release ..
+make install
 ```
 
 ### On Ubuntu/Debian
 
 ```
-$ sudo apt-get install build-essential libcurl4-openssl-dev libxml2-dev libssl-dev cmake
-$ git clone https://github.com/taganaka/SpeedTest
-$ cd SpeedTest
-$ cmake -DCMAKE_BUILD_TYPE=Release .
-$ sudo make install
+sudo apt-get install build-essential libcurl4-openssl-dev libxml2-dev libssl-dev cmake
+git clone https://github.com/taganaka/SpeedTest
+cd SpeedTest
+cmake -DCMAKE_BUILD_TYPE=Release .
+sudo make install
 ```
 
 ### On OpenSuse
 
 ```
-$ sudo zypper install cmake gcc-c++ libcurl-devel libxml2-devel libopenssl-devel git
-$ git clone https://github.com/taganaka/SpeedTest
-$ cd SpeedTest
-$ cmake -DCMAKE_BUILD_TYPE=Release .
-$ sudo make install
+sudo zypper install cmake gcc-c++ libcurl-devel libxml2-devel libopenssl-devel git
+git clone https://github.com/taganaka/SpeedTest
+cd SpeedTest
+cmake -DCMAKE_BUILD_TYPE=Release .
+sudo make install
 ```
 
 ## Usage
